@@ -40,8 +40,6 @@ import { transformationTypes } from '@/constants'
 import { getUserById } from '@/lib/actions/user.actions';
 import { auth } from '@clerk/nextjs';
 import { redirect } from 'next/navigation';
-// Define TransformationTypeKey here if not exported as a module
-type TransformationTypeKey = keyof typeof transformationTypes;
 
 const AddTransformationTypePage = async ({ params: { type } }: { params: { type: string } }) => {
   const authResult = auth();
