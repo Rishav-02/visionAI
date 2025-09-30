@@ -1,4 +1,4 @@
-import { SignUp, SignedIn, SignedOut } from '@clerk/nextjs'
+import { SignUp, SignIn, SignedIn, SignedOut } from '@clerk/nextjs'
 
 const SignUpPage = () => {
   return (
@@ -7,7 +7,7 @@ const SignUpPage = () => {
         <SignUp />
       </SignedOut>
       <SignedIn>
-        {/* Optionally, show a message or redirect */}
+        <SignIn />
       </SignedIn>
     </>
   )
