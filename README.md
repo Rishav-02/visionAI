@@ -8,20 +8,9 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 text-align="center">An AI SaaS Platform</h3>
+  <h2 text-align="center" >An AI SaaS Platform</h3>
 
 </div>
-
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
-
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -89,7 +78,6 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/Rishav-02/visionAI
-cd imaginify
 ```
 
 **Installation**
